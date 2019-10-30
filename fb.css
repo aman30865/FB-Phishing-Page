@@ -1,0 +1,147 @@
+<style>
+             #full{
+                 position:relative;
+                 bottom: 25px;
+             }
+            div{
+                border: 0px solid green;
+            }
+            #top{
+                background:#3D5B99;
+                margin:0;
+                padding:5px;
+                float:left;
+                width:99.5%;
+                border:1px;
+            }
+            #topleft{
+                color:whitesmoke;
+                text-align: center;
+                width:36%;
+                float:left; 
+                padding:10px 60px;
+            }
+            #topright{
+                color:whitesmoke;
+                text-align:left;
+                float:left;
+                width:42%;
+                height:80px;
+                padding:0px 0px 0px 180px;
+                margin:0;
+                font-size: 75%;
+                line-height:200%;
+            }
+            #email{
+                
+                float:left;
+                border-width:0px 15px;
+                border-color:#3D5B99;
+            }
+            #pass{
+                width:48%;
+                float:left;
+                border-right:600px;
+            }
+            #log{
+                background-color:rgb(79, 107, 199);
+                border: thin solid rgba(51, 51, 51, 0.6);
+                color:aliceblue;
+                font-weight: bold;
+                border-radius: 3px;
+                padding:20;
+            }
+             #log:hover{
+                 cursor:pointer;
+                 background-color: #365899;
+             }
+            .fill{
+                border:1px solid black;
+            }
+            body{
+                font-family: sans-serif;
+                margin:0;
+                padding:0;
+            }
+            #fo{
+                color:#789bd9;
+                text-decoration: none;
+            }
+            #fo:hover{
+                text-decoration: underline;
+            }
+            #mid{
+                float:left;
+                background-image: linear-gradient(white,#D3D8E8);
+                width: 100%;
+            }
+            #midright{
+                width:34%;
+                margin-left: 270px;
+                font-size:large;
+                font-weight: bold;
+                float:left;
+                color:#0E3864;
+            }
+            #midleft{
+                padding-top: 15px;
+                margin-left: 40px;
+                float:left;
+                line-height: 250%;
+           
+            }
+            #foot{
+                float:left;
+                position:relative;
+                
+            }
+            .inp{
+                font-size:large;
+                border:1px solid rgba(189,199,216,0.6);
+                border-radius:5px;
+                padding:4px;
+                border-right: 15px;
+            }
+            .mrb{
+                line-height: 25px;
+                margin:15px 0px;
+            }
+            .gend{
+                padding-left: 10px;
+            }
+            #end{
+                font-size: small;
+                line-height: 20px;
+            }
+            #sign{
+                display:flex;
+                outline-width: thin;
+                outline-style: ridge;
+                text-shadow: 1px 1px rgba(49, 49, 49, 0.72);
+                padding: 10px 60px;
+                background-color:#669F52;
+                border: thin solid rgba(51, 51, 51, 0.6);
+                color:white;
+                font-weight: bold;
+                border-radius: 5px;
+                font-size: large;  
+                }
+            #sign:hover{
+                 cursor:pointer;
+                 background-color: rgb(110, 177, 60);
+            }
+             #cel{
+                font-size: small;
+                margin:10px 0px;
+            }
+            #cre{
+            line-height: 160%;
+            }
+            #foot{
+                padding:30px 0px;
+                width:90%;
+            }
+            #lang{
+                
+            }
+        </style>
